@@ -2,7 +2,7 @@ function squareRoot(num) {
 
     for (let i = num; i * i >= num  ; i--) {
         //console.log(i);
-        if (i*i === num) {
+        if ( i * i === num) {
             var result = "La racine carée de " + num + " est " + i;
         } else {
             var result = num + "n'a pas d'entier en racien carrée";

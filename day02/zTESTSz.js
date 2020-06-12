@@ -1,12 +1,13 @@
-var charStart = "A"
-var charEnd = "Z"
-var charStartAscii = charStart.charCodeAt(0)
-var charEndAscii = charEnd.charCodeAt(0)
+function squareRoot(num) {
+  var i = num;
+  while (true) {
+    if (i * i === num) {
+      return i;
+    } else if (i * i === 0){
+      return num + " n'a pas d'entier en racine carrée";
+    }
+    i--;
+  }
+}
 
-console.log("ascii de " + charStart + " : " + charStartAscii)
-console.log("ascii de " + charEnd + " : " + charEndAscii)
-
-var lettreFromAscii = String.fromCharCode(50);
-
-console.log(lettreFromAscii);
-
+console.log(squareRoot(256))
