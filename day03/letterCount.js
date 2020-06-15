@@ -2,13 +2,13 @@ function letterCount(str, search) {
     var arrSentence = str.split(""),
         result = 0;
     // console.log(arrSentence);
-    console.log(charSearch.toUpperCase);
+
 
     for (i = 0 ; i < arrSentence.length; i++) {
         // (arrSentence[i] === "i" || arrSentence[i] === "I" ) ? result++ : false ;
 
             // console.log(arrSentence[i]);
-            if (arrSentence[i] === charSearch.toUpperCase || arrSentence[i] === charSearch.toLowerCase ){
+            if (arrSentence[i] === charSearch.toUpperCase() || arrSentence[i] === charSearch.toLowerCase() ){
                 result++;
             }   
         }   
