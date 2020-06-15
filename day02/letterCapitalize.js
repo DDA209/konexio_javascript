@@ -20,9 +20,9 @@ function letterCapitalize(sentence) {
 }
 
 
-
-
 // Bilel
+
+/*
 function letterCapitalizeBilel(sentence) {
     sentence = sentence.split(" ");
 
@@ -32,6 +32,8 @@ function letterCapitalizeBilel(sentence) {
 
     return sentence.join(" ");
 }
+*/
+
 
 var test = "on met des majuscules au début de chaque mot";
 

@@ -48,8 +48,8 @@ var empty = null;
 
 // // undifiened (la variable n'a pas été définie)
 var notExistant;
-console.log("typof notExistant", typof notExistant);
-console.log("typof inexistant", typof inexistant);
+console.log("typof notExistant", typeof notExistant);
+console.log("typof inexistant", typeof inexistant);
 
 // // function
 var doSomething = function () {
@@ -68,3 +68,11 @@ var  quote1='Voici la citation de Jénaïc : "La vie  d\'artiste est belle"'
 var  quote2="Voici la citation de Jénaïc : \"La vie d'artiste est belle\""
 
 // Extra typeof (renvoie le type de la variable)
+
+
+for (i = 0; i < 4; i++) {
+    for (j = 0; j < 4 ; j++) {
+        console.log("i="+i+" j="+j);
+        
+    }    
+}
