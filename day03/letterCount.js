@@ -8,7 +8,7 @@ function letterCount(str, search) {
         // (arrSentence[i] === "i" || arrSentence[i] === "I" ) ? result++ : false ;
 
             // console.log(arrSentence[i]);
-            if (arrSentence[i] === charSearch.toUpperCase() || arrSentence[i] === charSearch.toLowerCase() ){
+            if (arrSentence[i] === search.toUpperCase() || arrSentence[i] === search.toLowerCase() ){
                 result++;
             }   
         }   

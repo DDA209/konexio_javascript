@@ -17,18 +17,18 @@ console.log("-- TYPES --");
 
 // // Strings "text"
 var food = "apple";
-console.log("food", food);
+console.log("food ", typeof food);
 
 var notFigure = "0123";
 
 // // Number chiffre
 var figure = 1234
-console.log("figure", figure);
+console.log("figure", typeof figure);
 
 var secondFigure = 5678;
 var secondfigure = 90;
-console.log("secondFigure", secondFigure);
-console.log("secondfigure", secondfigure); // wrong camel case
+console.log("secondFigure ", secondFigure);
+console.log("secondfigure ", secondfigure); // wrong camel case
 
 // // Boolean
 var isHealthy = true;
@@ -41,6 +41,8 @@ var names = ['John', 'peter', 'frank', 1, true];
 var student = {
     name: "Timothy",
     age: 18,
+    ville: "Paris",
+    vivant: true
 };
 
 // // null (la variable n'a pas de valeur)
@@ -48,8 +50,8 @@ var empty = null;
 
 // // undifiened (la variable n'a pas été définie)
 var notExistant;
-console.log("typof notExistant", typeof notExistant);
-console.log("typof inexistant", typeof inexistant);
+console.log("typof notExistant ", typeof notExistant);
+console.log("typof inexistant ", typeof inexistant);
 
 // // function
 var doSomething = function () {
@@ -60,6 +62,7 @@ var doSomething = function () {
 console.log("secondFigure + figure",secondFigure + figure);
 console.log("secondFigure + figure",notFigure + figure); // Concaténation de string par convertion du num en chiffre
 
+/*
 // EXTRA
 console.log("-- EXTRA --");
 
@@ -68,11 +71,16 @@ var  quote1='Voici la citation de Jénaïc : "La vie  d\'artiste est belle"'
 var  quote2="Voici la citation de Jénaïc : \"La vie d'artiste est belle\""
 
 // Extra typeof (renvoie le type de la variable)
+*/
 
 
+
+
+/* FOR imbriquées
 for (i = 0; i < 4; i++) {
     for (j = 0; j < 4 ; j++) {
         console.log("i="+i+" j="+j);
         
     }    
 }
+*/
