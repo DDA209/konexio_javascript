@@ -1,5 +1,8 @@
+
 function palindrome(str) {
     var arrToArray = str.split("");
+    console.log("arrToArray : " + arrToArray);
+
     var arrToVerify = [];
 
     for (i = 0, j = 0 ; i < arrToArray.length; i++) {

@@ -24,7 +24,7 @@ function swapCase(str) {
     // return arrToChange;
 }
 
-var input = "*-/'SnRTaUstruTYoISstDdsyu";
+var input = "SnRTaUstruTYoISDdsstyu";
 
 console.log(swapCase(input));
 

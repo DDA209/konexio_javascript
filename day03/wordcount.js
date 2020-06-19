@@ -3,5 +3,3 @@ function wordCount(str) {
 }
 
 console.log(wordCount("Dit papa c'est quoi cette bouteille de lait ?"));
-
-
