@@ -6,4 +6,4 @@ function lowerCase(str) {
 // console.log(lowerCase(input));
 
 
-module.exports = lowerCase;
+module.exports = lowerCase;  //// Permets d'être appelé par un require
