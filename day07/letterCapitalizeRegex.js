@@ -34,7 +34,7 @@ console.log(countWordsRegex(input2));
 */
 
 function letterCapitalizeRegex(str) {
-    var result = str.replace(/(\b[A-ZÇ-Ü])\w{0}/gi, str.toUpperCase(/(\b[A-ZÇ-Ü])\w{0}/gi)); //á-Ñ
+    var result = str.replace(str, str.toUpperCase(/(\b[A-ZÇ-Ü])\w{0}/gi)); //á-Ñ
     return result;
 }
 
