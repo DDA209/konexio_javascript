@@ -1,5 +1,5 @@
 
-function palindrome(str) {
+function isPalindrome(str) {
     var arrToArray = str.split("");
     console.log("arrToArray : " + arrToArray);
 
@@ -38,9 +38,9 @@ var input4 = "À l'émir, Asimov a vomi sa rime, là"; // False sur accent
 var input5 = "123 n'est pas sa PTS en 321"; // TRUE
 var input6 = "Ce n'est pas 1 palindrome"; // False ça se voit
 
-console.log(palindrome(input1) + " pour :   " + input1);
-console.log(palindrome(input2) + " pour :   " + input2);
-console.log(palindrome(input3) + " pour :   " + input3);
-console.log(palindrome(input4) + " pour :   " + input4);
-console.log(palindrome(input5) + " pour :   " + input5);
-console.log(palindrome(input6) + " pour :   " + input6);
+console.log(isPalindrome(input1) + " pour :   " + input1);
+console.log(isPalindrome(input2) + " pour :   " + input2);
+console.log(isPalindrome(input3) + " pour :   " + input3);
+console.log(isPalindrome(input4) + " pour :   " + input4);
+console.log(isPalindrome(input5) + " pour :   " + input5);
+console.log(isPalindrome(input6) + " pour :   " + input6);

@@ -9,13 +9,13 @@
 //     return tableau;
 // }
 
-function swap(var1, var2) {
+function swapCase(var1, var2) {
     var temp = var1;
     var1 = var2;
     var2 = temp;
     return tableau = [var1, var2];
 }
-console.log(swap(25, 30));
+console.log(swapCase(25, 30));
 
 // Elotra version --- Au top
 // function swap (var1, var2) {

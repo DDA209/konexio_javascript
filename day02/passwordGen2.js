@@ -6,7 +6,7 @@ var charEndAscii = charEnd.charCodeAt(0);
 var min = 6;
 var max = 15;
 
-function passwordGen(num) {
+function passwordGen2(num) {
  
     if (num >= min && num <= max){
         var arrPassword = [];
@@ -23,6 +23,6 @@ function passwordGen(num) {
     }
 }
 
-console.log(passwordGen(5));  // Trop petit
-console.log(passwordGen(11)); //    OK 
-console.log(passwordGen(18)); // Trop grand
+console.log(passwordGen2(5));  // Trop petit
+console.log(passwordGen2(8)); //    OK 
+console.log(passwordGen2(18)); // Trop grand

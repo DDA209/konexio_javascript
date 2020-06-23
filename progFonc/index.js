@@ -35,7 +35,7 @@ console.log("Bdays avec n° d'index + 1 : " + newBdays2)
 var arr = [1.5, 2.56, 5.1, 12.33];
 
 // round each number up in an array
-var rounded = arr.map(Math.ceil); // Référence d efonction qui est pas appelée par arr.map
+var rounded = arr.map(Math.ceil); // Référence de fonction qui est pas appelée par arr.map
 
 console.log(rounded); // => [2, 3, 6, 13]
 
