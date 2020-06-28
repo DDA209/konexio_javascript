@@ -1,9 +1,7 @@
 var prompt = require('prompt');
 var mots = require('./mots.json');
 
-//*
-
-/// Récupération d'un mot aléatoirement dans mots.json
+/***** Récupération d'un mot aléatoirement dans mots.json *****/
 var word = "";
 var input = "";
 
@@ -13,23 +11,43 @@ function wordFind() {
   return word;
 }// Retunn 1 random word
 
+
+/***** récupération de la saisie utilisateur *****/
 function playInput() {
 // */
-  prompt.start();  // start the prompt
+  var letter = {
+    name: "lettre",
+    message: "Proposez une lettre",
+    validator: /^([A-Za-z])\w{0}/,
+    warning: "N'entrez qu'une lettre de A à Z (accents compris)"
 
-prompt.get(["lettre"], function (err, result) {  // get 2 properties username and email
+  }
+
+  prompt.start(); 
+  // console.log("Prompt started")
+  prompt.get(letter, function (err, result) {  // Récupère 1 valeur, celle de la lettre tappée
     if (err) { 
+      // console.log("In error")
       return onErr(err); 
     }
-    result.lettre.toUpperCase();
-    console.log(result.lettre.toUpperCase());
+    // console.log("not in error")
+    input = result.lettre.toUpperCase();
+    // console.log(input);
+    // console.log(result);
     return input;
   });
-
- 
 }
 
-playInput()
+var test = playInput();
+console.log(input);
+
+// console.log("test = " + test);
+
+if (test === "A"){
+  console.log("OK");
+} else if (test !== "A"){
+
+}
 /*
 
 function play() {
@@ -56,4 +74,4 @@ console.log("Le mot est : " + word);
 // console.log("La lettre saisie est : " + input);
 
 
-console.log(playInput());
+// console.log(input);
